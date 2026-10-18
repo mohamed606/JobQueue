@@ -1,0 +1,2 @@
+1- The Worker will be responsible for the status because it knows the retry policy so after a job failed it know whether
+to retry or mark it as failed and this leave Job very simple all it cares about is executing the function
